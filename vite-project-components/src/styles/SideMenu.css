@@ -1,0 +1,80 @@
+
+.side-menu {
+    width: 300px;
+    background-color: #17202A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .menu-item.active {
+    font-weight: bold;
+    color: #1da1f2;
+  }
+  
+  .menu-item .fab,
+  .menu-item .fas {
+    font-size: 20px;
+  }
+  
+  .tweet-button {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: stretch;
+  }
+  
+  .tweet-button:hover {
+    background-color: #1a91da;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    padding-top: 20px;
+    /* border-top: 1px solid gray; */
+  }
+  
+  .user-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .user-info {
+    margin-left: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .user-handle {
+    font-size: 14px;
+    color: gray;
+  }
+
+
+  .font-face {
+    font-family: "SF Compact Display Thin";
+}
