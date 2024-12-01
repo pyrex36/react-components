@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 import { CiLocationOn } from "react-icons/ci";
 import { BsCalendar3 } from "react-icons/bs";
 
 const ProfileCard = () => {
   return (
-    <div className=" max-w-lg mx-auto bg-black text-white rounded-md overflow-hidden shadow-lg">
+    <div className="font-['SF_Compact_Display_Medium'] font-bold max-w-lg mx-auto bg-black text-white rounded-md overflow-hidden shadow-lg">
       {/* Cover Image */}
       <div className="relative h-40 bg-gradient-to-r from-purple-500 to-pink-500">
         <img
@@ -40,21 +40,29 @@ const ProfileCard = () => {
           {/* Metadata */}
           <div className="flex items-center gap-4 text-sm text-gray-400 mt-4">
             <div className="flex items-center gap-1">
-              <i className="fas fa-map-marker-alt"> <CiLocationOn /></i> London
+              <i className="fas fa-map-marker-alt">
+                {" "}
+                <CiLocationOn />
+              </i>{" "}
+              London
             </div>
             <div className="flex items-center gap-1">
-              <i className="fas fa-calendar-alt"> <BsCalendar3 /></i> Joined September 2011
+              <i className="fas fa-calendar-alt">
+                {" "}
+                <BsCalendar3 />
+              </i>{" "}
+              Joined September 2011
             </div>
           </div>
 
           {/* Stats */}
           <div className="flex items-center gap-6 mt-4 text-sm">
             <div>
-              <span className="font-bold text-white">589</span>{' '}
+              <span className="font-bold text-white">589</span>{" "}
               <span className="text-gray-400">Following</span>
             </div>
             <div>
-              <span className="font-bold text-white">72</span>{' '}
+              <span className="font-bold text-white">72</span>{" "}
               <span className="text-gray-400">Followers</span>
             </div>
           </div>

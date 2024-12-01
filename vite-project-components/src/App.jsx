@@ -14,8 +14,7 @@ import { TfiMore } from "react-icons/tfi";
 const SideMenu = () => {
 
   return (
-    // <div className="w-80 bg-dark-gray text-white flex flex-col items-start p-5">
-<div className="font-['SF_Compact_Display_Medium'] w-full sm:w-64 bg-[#17202A] text-white flex flex-col items-start p-5 leading-tight">
+<div className="font-['SF_Compact_Display_Medium'] font-bold w-full sm:w-64 bg-[#17202A] text-white flex flex-col items-start p-5 leading-tight">
       <div className="flex items-center gap-4 text-sm sm:text-lg my-4 cursor-pointer"> 
         <FaTwitter />
       </div>

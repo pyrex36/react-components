@@ -7,7 +7,7 @@ import { FiShare } from "react-icons/fi";
 
 const TweetCard = () => {
   return (
-    <div className="max-w-xl mx-auto bg-black text-white p-4 rounded-md shadow-md">
+    <div className="font-['SF_Compact_Display_Medium'] font-bold max-w-xl mx-auto bg-black text-white p-4 rounded-md shadow-md">
       {/* User Info */}
       <div className="flex items-start gap-3">
         <img
@@ -24,13 +24,13 @@ const TweetCard = () => {
           <p className="mt-1 text-gray-300">Tom is in a big hurry.</p>
         </div>
       </div>
-      {/* https://avatarfiles.alphacoders.com/313/313393.jpg */}
       {/* Tweet Image */}
-      <div className=" mt-4 rounded-lg overflow-hidden">
+      <div className=" mt-4 rounded-lg overflow-hidden p-4">
         <img
-          src="https://via.placeholder.com/600x300"
+          src="https://avatarfiles.alphacoders.com/313/313393.jpg"
           alt="Tweet Media"
-          className=" w-full h-full object-cover"
+          className=" w-full h-auto object-cover"
+          style={{ width: '600px', height: '300px' }}
         />
       </div>
 
