@@ -3,14 +3,16 @@ import React from "react";
 const DesignWeeklyBoard = () => {
   return (
     <>
-      <div className="p-4">
-        <h1 className="text-2xl font-bold mb-2">Design weekly</h1>
+      <div className="font-['SF_Pro_Text_Bold'] p-4">
+        <h1 className="font-['SF_Pro_Compact_Bold'] text-2xl font-bold mb-2">Design weekly</h1>
         <p className="mb-4">A board to keep track of design progress.</p>
-        <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+        <div className="bg-gray-50 p-4 rounded-lg shadow-md">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Last week column */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">Last week</h2>
+              <h2 className="bg-gray-200 text-lg font-semibold mb-2">
+                Last week
+              </h2>
               <div className="bg-white p-4 rounded shadow">
                 <h3 className="font-bold">Review scope</h3>
                 <p>Review #390.</p>
@@ -34,7 +36,9 @@ const DesignWeeklyBoard = () => {
             </div>
             {/* This week column */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">This week</h2>
+              <h2 className="bg-purple-100 text-lg font-semibold mb-2">
+                This week
+              </h2>
               <div className="bg-white p-4 rounded shadow">
                 <div className="flex mb-1">
                   <img
