@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import { FaTwitter } from "react-icons/fa";
 import { RiHome7Fill } from "react-icons/ri";
@@ -12,10 +12,9 @@ import { CiCircleMore } from "react-icons/ci";
 import { TfiMore } from "react-icons/tfi";
 
 const SideMenu = () => {
-
   return (
-<div className="font-['SF_Compact_Display_Medium'] font-bold w-full sm:w-64 bg-[#17202A] text-white flex flex-col items-start p-5 leading-tight">
-      <div className="flex items-center gap-4 text-sm sm:text-lg my-4 cursor-pointer"> 
+    <div className="font-[DM Sans] font-bold w-full sm:w-64 bg-[#17202A] text-white flex flex-col items-start p-5 leading-tight">
+      <div className="flex items-center gap-4 text-sm sm:text-lg my-4 cursor-pointer">
         <FaTwitter />
       </div>
       <div className="flex items-center gap-4 text-sm sm:text-lg my-3 text-white cursor-pointer">
@@ -47,13 +46,14 @@ const SideMenu = () => {
       </button>
       <div className="flex items-center mt-40 pt-5">
         <img
-          src="https://s3-alpha-sig.figma.com/img/5884/a9a3/850993a22ae68a1d928237508e713a95?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EzuyuCp~6s8tKQjyb4NqBZZ7y-Iwp7gzhirWHslWyWfNxLbp9zlTJMpznimNy4wGKYHuqhktWzaPE9-EbejqxHt6huniexyCSvjmR6fbFyLJ3YukvgGLaq1K917jIYBokB5srcuPbKJNTdErT02CTaxc8GQFVAsqaSGMv0Yp6K4aUzUkk03trmmyfwiy8eiHlUFiddC8yX1OaOUStLtiZqh1ltoc8NYaJhx4IBWdaX0cQeI0j5nps6OU36W-rZKc-Ov~oXDGRrMPsSdddjwRZeJsvqPJIEWsywuSW6bqklPCXBjwldkHSbiWmQ8p~i5gu0YV9gU8UPwyzU0se~1lbQ__"
-          alt="User Avatar"
+   src="https://images.unsplash.com/photo-1721332149274-586f2604884d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"          alt="User Avatar"
           className="rounded-full w-12 h-12"
         />
         <div className="ml-2">
-        <div className="flex items-center gap-6 text-base font-bold">Davide Biscuso <TfiMore /></div> 
-        <div className="text-sm text-gray-500">@biscuttu </div>
+          <div className="flex items-center gap-6 text-base font-bold">
+            Davide Biscuso <TfiMore />
+          </div>
+          <div className="text-sm text-gray-500">@biscuttu </div>
         </div>
       </div>
     </div>

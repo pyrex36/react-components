@@ -2,7 +2,7 @@ import React from "react";
 
 const TrendingNews = () => {
   return (
-    <div className="font-['SF_Compact_Display_Medium'] font-bold bg-gray-800 text-white p-4 rounded-lg max-w-md mx-auto">
+    <div className="font-[DM Sans] font-bold bg-gray-800 text-white p-4 rounded-lg max-w-md mx-auto">
       <h2 className="text-xl font-bold mb-4">What's happening</h2>
       <div className="space-y-4">
         <div className="flex items-center bg-gray-700 p-4 rounded-lg">
@@ -16,7 +16,7 @@ const TrendingNews = () => {
           </div>
           <div className="ml-4">
             <img
-              src="https://s3-alpha-sig.figma.com/img/3460/11e0/f5855b4ed3bb0e6e9151777b542831a6?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U91lbBZhYy3NOV48KtbjuNI-NT~FXxuBnztTbjS3f2FrZc7Mth~3cJwF1pOQplBNvvp2VKwCQDmwYc7D2A0xxkxScQkbi36gf7KqR7cI4I-2TwddAakK-jc91vWsXV0moXQXUsxu5Bns-bVO2Two3qAZjHVAaaymocIGFAwqgQpteLbQLVZstO-e2kK3Z5SfIjSHaX85cCtzJo8Q2DcurNiL27TFLxkT~mA9jGgwxgi0E0Dwxi0TYLWspnkvvw43FLYtFcR8RSl4JcKuo31bbsAUlQbRyYPz1qpNa5Sgy9nePaajWvka7mDnbMVxbwn-QZu6lUMMljH3yi8H1RYLQA__"
+              src="https://images.unsplash.com/photo-1585458297824-076478fda40f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y292aWR8ZW58MHx8MHx8fDA%3D"
               alt="COVID-19"
               className="w-20 h-16 rounded-lg object-cover"
             />
@@ -33,7 +33,7 @@ const TrendingNews = () => {
           </div>
           <div className="ml-4">
             <img
-              src="https://s3-alpha-sig.figma.com/img/dd55/c92d/78e1ecd461a0dadd00f45a1868265980?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bPKLmYzwgQgqab59dWd16DGJbuwVbm4~MEqiDcIjcblyLYyadNpwD8HfuI0aRA0YdIEuDbFyXAUfm8g3EECZ4DoEI09alSsT-vR-C3DQHxhgTMcQAEVTOHRpmwDXqFpKQfcP~RT8Tn-KLJC-Izz6SX9edWUFcQLwSKJST2npNXTlvtoGU2hFeHZ7tR~6AxOk70eruIqdOes3KCoLEzKtso-eBf4eCHWYwtB9RdzWxptOyMYcTrQqNe4mKjmcltzHANdVGWkKlFY7G8UzgDXXBf~WRnwClWyEGVdYIvAJdfTC8NZFtHQCdE7jn1fRQuMEyAlKxi4eNDtn-fbUJJLqnA__"
+              src="https://plus.unsplash.com/premium_photo-1706546717558-2422d2bde2d4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFybGVyfGVufDB8fDB8fHww"
               alt="Parler"
               className="w-20 h-16 rounded-lg object-cover"
             />
@@ -50,7 +50,7 @@ const TrendingNews = () => {
           </div>
           <div className="ml-4">
             <img
-              src="https://s3-alpha-sig.figma.com/img/75e5/6615/1759415b26f3d6c80f11568b5c45b7b7?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PxFirCcgUXObB27jkeHgTgO654HCY5Qu00A6uZDQMo57rpfUO6C95qg3B1kJ2idICkKvikyjPsVMTGunWozvTt87UqJTGdAYCJaLJ42lTOXQ1gByHg5S34TIB0lN44nTYo0jXftfl0aK~GM4To8G~24SpgAL782ssLbFGFCP2c6wTt8DhZjDLcifvpS8cCMpVGPl2HYo5tYnglCRhMppeQzT0WVPjgHuiccr6fXSXpPPOS-W3IbQYvoIDufNvLaXn6g4Wuwi9BgIGJ4gBOyPUwWrHxIT40E0oCKLwV~~eYwspkpi6MBz6lZlwmkHcLxhD-hmOLvJjnF29afHD4WenQ__"
+              src="https://plus.unsplash.com/premium_photo-1683141498413-cdfc0feccdb3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D"
               alt="India vs Australia"
               className="w-20 h-16 rounded-lg object-cover"
             />

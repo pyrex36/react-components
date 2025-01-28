@@ -7,11 +7,14 @@ import { TbCalendarStats } from "react-icons/tb";
 
 const Post = ({ profilePic }) => {
   return (
-    <div className="font-['SF_Compact_Display_Medium'] font-bold max-w-md mx-auto bg-gray-900 text-white p-4 rounded-lg">
+    <div className="font-[DM Sans] font-bold max-w-md mx-auto bg-gray-900 text-white p-4 rounded-lg">
       <div className="flex items-start space-x-4">
         {/* Profile Picture */}
         <img
-          src={profilePic || "https://images.unsplash.com/photo-1684966610091-f6beda2d025a?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} // Replace with a default profile picture if none is provided
+          src={
+            profilePic ||
+            "https://images.unsplash.com/photo-1684966610091-f6beda2d025a?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          } // Replace with a default profile picture if none is provided
           alt="Profile"
           className="w-12 h-12 rounded-full"
         />
@@ -38,7 +41,7 @@ const Post = ({ profilePic }) => {
                 <BiPoll className="w-6 h-6" />
               </button>
               <button aria-label="Add Emoji">
-              <CiFaceSmile className="w-6 h-6" />
+                <CiFaceSmile className="w-6 h-6" />
               </button>
               <button aria-label="Schedule Tweet">
                 <TbCalendarStats className="w-6 h-6" />

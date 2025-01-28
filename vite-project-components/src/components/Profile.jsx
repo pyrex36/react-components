@@ -5,11 +5,11 @@ import { BsCalendar3 } from "react-icons/bs";
 
 const ProfileCard = () => {
   return (
-    <div className="font-['SF_Compact_Display_Medium'] font-bold max-w-lg mx-auto bg-black text-white rounded-md overflow-hidden shadow-lg">
+    <div className="font-[DM Sans] font-bold max-w-lg mx-auto bg-black text-white rounded-md overflow-hidden shadow-lg">
       {/* Cover Image */}
       <div className="relative h-40 bg-gradient-to-r from-purple-500 to-pink-500">
         <img
-          src="https://s3-alpha-sig.figma.com/img/f6dc/aa26/bca3c368810df76251ed44dbb55cfb99?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PIBsGFWgX4BNKFim4Ml1kySgGyOJQWYrG4d6A7d5DK6nVTVblxcqtYH4HLHD2lbcvtAyusyfaT91ndwLKRPGapYKfhOnU4ykYonpbqjf-AcMifgHdMPvmhUgHpgUfjgDjGzeRD2XqbkhnstQeJ7EIJi5IUID-pakj8SugQ27Agmty5sBk9EnjU30TuE9yXszNWCbjOTZvfngfVXbmQojAENDxIVzdvSAXTpegb9vFtmWTa-B912OPFu4s8uezaRn8py4Wx3CUmYGZhn36wd9f3FUUlz8w57FW2jUSQA1ik2xIe9Y3RZTGukIsEyMJJ5XcsRn53UyC1z73HrlqXZH~A__"
+          src="https://images.unsplash.com/photo-1735657090719-7f92cb44170b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D"
           alt="Cover"
           className="object-cover w-full h-full"
         />
@@ -21,7 +21,7 @@ const ProfileCard = () => {
           {/* Profile Picture */}
           <div className="absolute w-24 h-24 bg-gray-800 border-4 border-black rounded-full -mt-16">
             <img
-              src="https://s3-alpha-sig.figma.com/img/5884/a9a3/850993a22ae68a1d928237508e713a95?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EzuyuCp~6s8tKQjyb4NqBZZ7y-Iwp7gzhirWHslWyWfNxLbp9zlTJMpznimNy4wGKYHuqhktWzaPE9-EbejqxHt6huniexyCSvjmR6fbFyLJ3YukvgGLaq1K917jIYBokB5srcuPbKJNTdErT02CTaxc8GQFVAsqaSGMv0Yp6K4aUzUkk03trmmyfwiy8eiHlUFiddC8yX1OaOUStLtiZqh1ltoc8NYaJhx4IBWdaX0cQeI0j5nps6OU36W-rZKc-Ov~oXDGRrMPsSdddjwRZeJsvqPJIEWsywuSW6bqklPCXBjwldkHSbiWmQ8p~i5gu0YV9gU8UPwyzU0se~1lbQ__"
+              src="https://images.unsplash.com/photo-1735509903556-602b4d7d3ae5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
               alt="User"
               className="w-full h-full rounded-full object-cover"
             />
